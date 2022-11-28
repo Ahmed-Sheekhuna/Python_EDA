@@ -1,6 +1,6 @@
 # Using python for data exploration and analysis
 
-* For this project i used python for data exploration/analysis/visualisation of movie data.
+* For this project i used python,s pandas, numpy, seaborn, matplotlip and datetime libraries for data exploration/analysis/visualisation of movie data.
 * The purpose of this project is to provide answers for stake holders looking to get into the film making industry.
 * Questions i will be exploring to paint a clearer picture for the stake holders:
 1. When is the best time of the year to release a movie to gain maximum profits?
