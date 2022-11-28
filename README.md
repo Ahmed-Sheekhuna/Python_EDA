@@ -8,6 +8,19 @@
 3. Does the length of the movie and the rating have any impact on Net Profit, Profit Margins and IMDb ratings?
 4. What type of movies are most profitable to produce and how much should you spend?
 
+### Question 1
+#### When is the best time of the year to release a movie to gain maximum profits?
+
+* To answer this question i begin by converting the dates from the imdb_budgets_df dataframe to a datetime object. I then perform a count by month to calculate the number of movies released within each month of our dataset.
+* When grouping the data by month, I can select the Net Profit and Profit Margin columns so that we can see which months have the most finacial success. I visualised this data using the bar chart below to show the financialy performance of movies released per month.
+
+![MarginByMonth](https://user-images.githubusercontent.com/33176824/204342548-63eaa39e-8609-4a62-a841-93abc9894e2a.png)
+
+* I then plot the net profit by month for a few genres, we can see that there is a general trend amongst these genres for profit generated in each month.
+
+![ProfitbyMonthbyGenre](https://user-images.githubusercontent.com/33176824/204342662-32db3c1c-548c-404a-9685-1577bbf6cb1b.png)
+
+
 
 ### Question 2
 #### Which actors and directors to choose to maximise success of a movie?
